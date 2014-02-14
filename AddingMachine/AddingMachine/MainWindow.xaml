@@ -1,0 +1,14 @@
+﻿<Window x:Class="AddingMachine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="191,22,0,0" TextWrapping="Wrap" Text="Adding Machine" VerticalAlignment="Top" IsEnabled="False"/>
+        <TextBox x:Name="firstNumberTextBox" HorizontalAlignment="Left" Height="23" Margin="171,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBlock HorizontalAlignment="Left" Margin="227,95,0,0" TextWrapping="Wrap" Text="+" VerticalAlignment="Top" RenderTransformOrigin="0.731,1.023"/>
+        <TextBox x:Name="secondNumberTextBox" HorizontalAlignment="Left" Height="23" Margin="171,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="equalsButton" Content="Equals" HorizontalAlignment="Left" Margin="191,212,0,0" VerticalAlignment="Top" Width="75" IsDefault="True" Click="equalsButton_Click"/>
+        <TextBlock x:Name="resultTextBlock" HorizontalAlignment="Left" Margin="199,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Result Here"/>
+
+    </Grid>
+</Window>
