@@ -8,6 +8,11 @@ Adding Machine
 
 Simple XAML WPF app, taken from [Rob Miles' C# Yellow book](http://www.robmiles.com/c-yellow-book/).
 
+Dispatcher Timer
+----------------
+
+Thought I would break down the main idea of sprite animation into timer and added on WriteableBitmap code.
+
 Sprite Animation
 ----------------
 
