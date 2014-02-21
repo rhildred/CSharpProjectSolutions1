@@ -1,0 +1,13 @@
+﻿<Window x:Class="UserInput.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="375" Width="525" KeyDown="keyPressed" MouseLeftButtonDown="mouseLeftButtonDown">
+    <Grid>
+        <Label Content="MouseX" HorizontalAlignment="Left" Margin="2,309,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MouseXValue" Content="0" HorizontalAlignment="Left" Margin="60,309,0,0" VerticalAlignment="Top"/>
+        <Label Content="MouseY" HorizontalAlignment="Left" Margin="96,309,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MouseYValue" Content="0" HorizontalAlignment="Left" Margin="154,309,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="MouseClicked" Content="Mouse Not Clicked yet" HorizontalAlignment="Left" Margin="189,309,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="KeyPressLabel" Content="No key has been pressed" HorizontalAlignment="Left" Margin="324,309,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
