@@ -1,0 +1,9 @@
+﻿<Window x:Class="RunningMan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="525" Width="1024" KeyDown="changeSpeedAndDirection">
+    <Grid>
+        <Image x:Name="DestinationImage" HorizontalAlignment="Left" Height="504" Margin="0" VerticalAlignment="Top" Width="1024"/>
+
+    </Grid>
+</Window>

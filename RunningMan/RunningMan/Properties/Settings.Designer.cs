@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UserInput.Properties
+namespace RunningMan.Properties
 {
 
 
